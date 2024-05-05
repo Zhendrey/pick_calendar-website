@@ -1,0 +1,83 @@
+body{
+    background-color: #EDE0D1;
+    font-family: 'Noto Serif Display', serif;
+    max-height: 1080px;
+}
+input, textarea, button{
+    font-family: inherit;
+}
+form div{
+    position: relative;
+}
+form input:focus{
+    box-shadow: 0px 0px 35px #B79040;
+    outline: none;
+    border: 1px solid #B79040;
+}
+form button:active{
+    box-shadow: 0px 0px 35px #B79040;
+    outline: none;
+}
+.intro-new-user{
+    font-size: 40px;
+    padding: 10px 0px 0px;
+    text-align: center;
+}.palm-leave-1{
+    top: 0px;
+    left: -65.9px;
+    position: absolute;
+}.palm-leave-2{
+    top: 0px;
+    left: 1390px;
+    position: absolute;
+}
+.logIn-registration{
+    margin: 0px 0px 20px 0px;
+    text-align: center;
+}
+.email-registration{
+    margin: 0px 0px 20px 0px;
+    text-align: center;
+}.password-registration{
+    text-align: center;
+}.create-new-account{
+    margin: 0 auto;
+    text-align: center;
+    top: 20px;
+    width: 295px;
+    height: 100px;
+    font-size: 22px;
+    background: url(button-for-login-registration.png);
+    border: 0px;
+    font-family: 'Noto Serif Display', serif;
+    display: block;
+    position: relative;
+}.log-in-link{
+    margin: 20px 0px 0px 0px;
+    display: block;
+    top: 220px;
+    position: absolute;
+    left: 1000px;
+    font-size: 22px;
+    color: #B79040;
+}.log-in-link:hover{
+    color: #000000;
+}
+.continue-no-account-registration{
+    display: block;
+    left: 980px;
+    top: -100px;
+    font-size: 22px;
+    position: relative;
+    color: #B79040;
+}.continue-no-account-registration:hover{
+    color: #000000;
+}
+.art-flower{
+    left: 280px;
+    position: relative;
+}.simple-flower{
+    top: 20px;
+    left: 700px;
+    position: relative;
+}

@@ -1,0 +1,107 @@
+body{
+    background-color: #EDE0D1;
+    font-family: 'Noto Serif Display', serif;
+    max-height: 1080px;
+}
+input, textarea, button{
+    font-family: inherit;
+}
+
+main{
+    margin: -275px 0px 0px 0px;
+    z-index: 1;
+    position: relative;
+}
+form input:focus{
+    box-shadow: 0px 0px 35px #B79040;
+    outline: none;
+    border: 1px solid #B79040;
+}
+form button:active{
+    box-shadow: 0px 0px 35px #B79040;
+    outline: none;
+}
+.welcoming-back{
+    font-size: 56px;
+    text-align: center;
+}
+.salut{
+    display: block;
+    margin: 0 auto;
+    margin-top: -400px;
+    width: 714.9px;
+    height: 714.9px;
+    opacity: 0.2;
+}
+.aloe-1{
+    left: -163px;
+    top: -100px;
+    position: absolute;
+}
+.aloe-2{
+    left: 1316px;
+    top: -82px;
+    position: absolute;
+}
+.log-in{
+    margin: 0px 0px 20px 0px;
+    font-size: 22px;
+    text-align: center;
+}
+.email{
+    margin: 0px 0px 20px 0px;
+    font-size: 22px;
+    text-align: center;
+}
+.password{
+    font-size: 22px;
+    text-align: center;
+}
+.log-in-button{
+    margin: 0 auto;
+    text-align: center;
+    top: 10px;
+    width: 295px;
+    height: 100px;
+    font-size: 22px;
+    background: url(button-for-login-registration.png);
+    border: 0px;
+    font-family: 'Noto Serif Display', serif;
+    display: block;
+    position: relative;
+}
+.buttons{
+    position: relative;
+    top: -170px;
+}.continue-no-account{
+    display: block;
+    left: 980px;
+    top: -110px;
+    font-size: 22px;
+    position: relative;
+    color: #B79040;
+    z-index: 1;
+}.continue-no-account:hover{
+    color: #000000;
+}
+.registration-link{
+    margin: -90px 0px 0px 0px;
+    display: block;
+    left: 1000px;
+    font-size: 22px;
+    position: relative;
+    color: #B79040;
+    z-index: 1;
+}.registration-link:hover{
+    color: #000000;
+}
+.leave-1{
+    top: 616px;
+    left: -91.6px;
+    position: absolute;
+}
+.leave-2{
+    left: 1425px;
+    top: 616px;
+    position: absolute;
+}

@@ -1,0 +1,190 @@
+body{
+    font-family: 'Noto Serif Display', serif;
+    font-weight: 300;
+    overflow-x: hidden;
+    background: #EDE0D1;
+}
+.container{
+    max-width: 1180px;
+    margin: 0 auto;
+}
+@media (max-width: 1200px){
+    .container{
+        max-width: 950px;
+        margin: 0 auto;
+    }
+}@media (max-width: 980px){
+    .container{
+        max-width: 768px;
+        margin: 0 auto;
+    }
+}@media (max-width: 768){
+    .container{
+        max-width: none;
+        margin: 0 auto;
+    }
+}
+header{
+top: -150px;
+left: -10px;
+opacity: 0;
+position: relative;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    opacity: 0;
+    min-height: 100%;
+}
+input, textarea, button{
+    font-family: inherit;
+}
+.half-circle{
+    position: absolute;
+    z-index: -1;
+    left: 440px;
+    top: -20px;
+    display: block;
+}.horizonat-wave-1{
+    top: 0px;
+    left: -10px;
+    height: 108.4px;
+    max-width: 584.6px;
+    position: absolute;
+    z-index: -2;
+}.horizontal-line-2{
+    top: 0px;
+    left: 1150px;
+    position: absolute;
+    z-index: -2;
+    max-width: 584.6px;
+    height: 128.4px;
+    }.decoratives__calendars{
+        position: relative;
+        top: -200px;
+        z-index: -3;
+    }.calendars__container{
+        max-width: 1480px;
+        margin: 0 auto;
+    }.calendars__row{
+        display: flex;
+        justify-content: space-between;
+    }
+    .calendar-1{
+        width: 177.6px;
+        height: 141.8px;
+    }
+    .calendar-2{
+        width: 177.6px;
+        height: 141.8px;
+    }.curved-shapes{
+        display: flex;
+        justify-content: space-between;
+        top: -200px;
+    }
+    .curved-shape-1{
+        left: -260px;
+        position: relative;
+    }
+    .curved-shape-2{
+        left: 300px;
+        position: relative;
+    }
+.website-name{
+    font-size: 36px;
+    top: -265px;
+    position: relative;
+    text-align: center; 
+}   
+.website-description{
+    font-size: 18px;
+    text-align: center;
+    font-family: 'Arbutus Slab', serif;
+    margin: -100px 0px 0px 0px;
+    top: -1200px;
+    position: relative;
+}.log-in-log-out{
+    top: -55px;
+    left: 1550px;
+    font-size: 29.9px;
+    position: fixed;
+    color: #000000;
+}.log-in-log-out:active{
+    color: #f1b948;
+}.mode-preferences{
+    position: relative;
+    top: -75px;
+    margin: -310px 0px 0px 0px;
+    text-align: center;
+    font-size: 56px;
+    display: flex;
+    justify-content: center;
+}.buttons{
+    position: relative;
+    top: -75px;
+    display: flex;
+    padding: 20px 0px;
+}.buttons__container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.pick-the-calendar{
+    position: relative;
+    margin: 0px 25px 0px 0px;
+    top: 20%;
+    font-size: 32px;
+    background-color: #CCA881;
+    border-color: #CCA881;
+    border-radius: 30px;
+}.calendar-and-date{
+    font-size: 24.7px;
+    position: relative;
+    margin: 0px 0px 0px 25px;
+    top: -2.5%;
+    color: #BB8F3A;
+    background-color: #000000;
+    border-color: #000000;
+    border-radius: 30px;
+    line-height: 30px;
+}.wavies{
+    pointer-events: none;
+    z-index: -1;
+    position: relative;
+    top: -75px;
+}.wavies__container{
+    max-width: 100%;
+}.wavies__row{
+    display: flex;
+    justify-content: space-between;
+    flex: 0 1 auto;
+    flex-wrap: nowrap;
+}
+.wavy-1{
+    left: -30px;
+    z-index: -1;
+    position: relative;
+}.wavy-2{
+    left: 30px;
+    z-index: -1;
+    position: relative;
+}.calendar-frame{
+    width: 1100px;
+    height: 575px;
+    background: round;
+}
+
+.frame{
+    pointer-events: none;
+    position: relative;
+    padding: 40px 0px;
+} 
+
+.frame__container{
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.frame__row{
+    top: -300px;
+    position: absolute;
+} 
